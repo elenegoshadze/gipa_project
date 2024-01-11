@@ -1,0 +1,54 @@
+
+
+.title { color: blue;}
+
+p{
+    color: rgb(255, 0, 179);
+}
+
+
+
+#logo {
+    width: 200;
+    /* height: 200; */
+}
+
+footer p {color: aqua;background-color: grey;
+
+}
+
+ul, header {
+    display:flex;
+
+    flex-wrap: wrap
+
+}
+
+header{
+    justify-content: space-between;
+    background-color: rgb(176, 180, 180);
+    align-items: center;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 0;
+    list-style: none;
+    gap: 30px;
+
+}
+
+a{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
